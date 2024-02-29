@@ -587,7 +587,7 @@ footer {
   background: rgba(0, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 100svh;
 }
 
 .inner-content {
@@ -656,13 +656,13 @@ color: var(--third-color);
 .video-box {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 50svh;
   display: flex;
 }
 
 .picture-box {
   position: relative;
-  height: 50vh;
+  height: 50svh;
   width: 100%;
   background-color: var(--secondary-color);
   object-fit: contain;
