@@ -332,9 +332,6 @@ footer {
   color: var(--secondary-color);
   padding-block: 20px;
   text-align: center;
-  background-image: url("../images/footer-bng.png");
-  background-repeat: no-repeat;
-  background-position: right top;
 }
 
 /*-----------------------*\
@@ -394,9 +391,7 @@ footer {
 /*--------------------*\
 ¦---FOOTER-BTN-ICONS---¦
 \*--------------------*/
-.king-overlay {
-  background-image: url("../images/Untitled-4.png");
-}
+
 
 /*-----------------------*\
 ¦---FOOTER-H2-HR-STYLES---¦
