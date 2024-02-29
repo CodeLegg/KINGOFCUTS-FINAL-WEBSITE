@@ -667,7 +667,7 @@ color: var(--third-color);
   background-color: var(--secondary-color);
   object-fit: contain;
   object-position: 30%;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 
