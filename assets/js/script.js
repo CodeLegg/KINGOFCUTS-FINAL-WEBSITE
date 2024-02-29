@@ -83,3 +83,25 @@ function callPhoneNumber(phoneNumber) {
   window.location.href = 'tel:' + phoneNumber;
 }
 
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var video = document.querySelector('.video-bg');
+
+    // Check if the video is paused and if user interaction is required
+    if (video.paused && video.play) {
+        // Attempt to play the video
+        video.play()
+            .then(function () {
+                // Video playback started successfully
+            })
+            .catch(function (error) {
+                // Autoplay was prevented, handle the error or inform the user
+                console.error('Autoplay was prevented:', error);
+            });
+    }
+});
