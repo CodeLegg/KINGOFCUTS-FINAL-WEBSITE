@@ -584,7 +584,7 @@ footer {
   color: var(--secondary-color);
   overflow: hidden;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
   height: 100svh;
