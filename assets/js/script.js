@@ -84,3 +84,24 @@ function callPhoneNumber(phoneNumber) {
 }
 
 
+const video = document.getElementById('videoElement');
+
+function playVideo() {
+    video.play().then(() => {
+        // Autoplay succeeded
+        console.log("Video autoplayed successfully.");
+    }).catch(error => {
+        // Autoplay was prevented, handle the error
+        console.error("Autoplay prevented:", error);
+    });
+}
+
+// Check if the video can be autoplayed
+if (video.autoplay) {
+    playVideo();
+} else {
+    // If not, wait for a user interaction (e.g., click) and then play
+    document.addEventListener('click', function () {
+        playVideo();
+    });
+}
